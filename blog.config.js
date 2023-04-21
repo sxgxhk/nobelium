@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Feng blog',
+  title: 'Feng's Blog',
   author: 'Feng',
   email: 'jslfp@foxmail.com',
   link: 'https://blog.typecho.win',
