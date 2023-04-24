@@ -9,7 +9,7 @@ const NavBar = () => {
   const BLOG = useConfig()
   const locale = useLocale()
   const links = [
-    { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
+    { id: 0, name: "首页", to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 2, name: "留言", to: '/liuyan', show: true  },
     { id: 3, name: locale.NAV.RSS, to: '/feed', show: true, external: true },
