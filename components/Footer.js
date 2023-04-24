@@ -16,7 +16,7 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} <img src="https://cdn.uu126.cn/halo/%F0%9F%87%A8%F0%9F%87%B3.svg" alt="china" style="vertical-align: text-top;width: 1.2em;margin-right: 4px;">
+            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`} ❤️
           </p>
           <Vercel />
         </div>
