@@ -10,9 +10,9 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: "首页", to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 2, name: "留言", to: '/liuyan', show: true  },
-    { id: 3, name: locale.NAV.RSS, to: '/feed', show: true, external: true },
+    { id: 1, name: "留言", to: '/liuyan', show: true  },
+    { id: 3, name: "友链", to: '/links', show: true  },
+    { id: 3, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 4, name: locale.NAV.SEARCH, to: '/search', show: true }
   ]
   return (
